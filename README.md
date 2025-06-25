@@ -99,4 +99,4 @@ MIT
 
 ## Author
 
-Your Name
+Ankit Lal
