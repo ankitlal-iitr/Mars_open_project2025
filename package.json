@@ -1,0 +1,27 @@
+{
+  "name": "data-compression-portal",
+  "version": "1.0.0",
+  "description": "A web application for compressing and decompressing files using various algorithms",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "compression",
+    "huffman",
+    "rle",
+    "lz77",
+    "file",
+    "processing"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
